@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "Geoffrey Dhuyvetters"
+  },
+  "bin": {
+    "duivvv": "./index.js",
+    "geoffreydhuyvetters": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/duivvv/duivvv/issues"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "date-fns": "^1.29.0"
+  },
+  "description": "yarn add or npm install me",
+  "homepage": "https://github.com/duivvv/duivvv#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "duivvv",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/duivvv/duivvv.git"
+  },
+  "version": "1.2.0"
+}
