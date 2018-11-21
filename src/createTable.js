@@ -19,7 +19,13 @@ const createTable = () => {
     output.push(parseLine(key, value));
   });
 
-  return table(output);
+  return table(output, {
+    columns: {
+      1: {
+        width: 70
+      }
+    }
+  });
 };
 
 module.exports = createTable;
